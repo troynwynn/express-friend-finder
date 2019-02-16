@@ -1,6 +1,33 @@
 var friends = require(`../data/friends`);
 
+
 module.exports = function(app) {
+
+    function friendFinder(newFriend, friends) {
+        var bestFriend = [];
+        
+        for (let i=1; i<friends.length-1; i++) {
+            var diff = 0
+    
+            for (let j=0; j<10; j++) {
+                newFriendScores = newFriend.scores[j];
+                currentFriendScores = friends[i].scores[j];
+                diff += Math.abs(newFriendScores-currentFriendScores);
+                if (i==1) {
+                    currentMin = diff;
+                }
+            }  
+            
+            if (currentMin >= diff) {
+                currentMin = diff;
+                bestFriend = friends[i]
+            }
+    
+        }
+    
+        return bestFriend;
+    
+    }
 
     app.get("/api/friends", function(req, res) {
         res.json(friends);
@@ -18,7 +45,10 @@ module.exports = function(app) {
 
         friends.push(newFriend);
 
-        res.json(true);
+        friendFinder(newFriend, friends);
+
+        res.json(friendFinder(newFriend, friends));
+
     });
 
 };
