@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/troynwynn/express-friend-finder/issues"
   },
-  "homepage": "https://github.com/troynwynn/express-friend-finder#readme"
+  "homepage": "https://github.com/troynwynn/express-friend-finder#readme",
+  "engines": {
+    "node": "10.x"
+  }
 }
