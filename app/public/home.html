@@ -3,29 +3,46 @@
     <title>FriendFinder</title>
   
     <!-- Latest compiled and minified CSS & JS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
   
     <!-- Font Awesome Glyphicons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   
   </head>
+
+  <style>
+
+    #home_container {
+      position: relative;
+      width: 80vw;
+
+    }
+
+    #background_img {
+      width: 100%;
+
+    }
+  
+  </style>
   
   <body>
   
-    <div class="container">
-  
-      <div class="jumbotron">
-        <h1><i class="fa fa-facebook-square" aria-hidden="true"></i> Friend Finder</h1>
-        <hr>
-        <h2>Answer a few basic questions. </h2>
-        <h2>Then find the friend with the greatest compatibility!</h2>
+    <div id="home_containter" class="container">
+        <div class="jumbotron text-center">
+            <h2 class="my-0 font-weight-bold"> HUNTER X HUNTER: WHICH CHARACTER ARE YOU?</h2>
+            <hr>
+            <img src ="../public/background.jpg" id="background_img">
+
         <br>
-  
-        <div>
-          <a href="/survey"><button type="button" class="btn btn-lg btn-primary"><h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4></button></a>
-        </div>
+        <br>
+
+            <div>
+                <a href="/survey"><button type="button" class="btn btn-lg btn-dark"><h4><span class="glyphicon glyphicon-list-alt"></span> Take The Quiz !</h4></button></a>
+              </div>
+          </div>
   
       </div>
   
