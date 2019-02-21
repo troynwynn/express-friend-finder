@@ -6,7 +6,7 @@ module.exports = function(app) {
     function friendFinder(newFriend, friends) {
         var bestFriend = [];
         
-        for (let i=0; i<10; i++) {
+        for (let i=0; i<friends.length-1; i++) {
             var diff = 0
     
             for (let j=0; j<10; j++) {

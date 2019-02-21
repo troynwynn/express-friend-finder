@@ -52,15 +52,15 @@ var friends = [
         "name":"Kurapika",
         "photo":"http://i.imgur.com/znKJiO2.jpg",
         "scores":[
-            1,
-            2,
             3,
             2,
-            3,
+            2,
+            2,
+            2,
             4,
             5,
             2,
-            5,
+            4,
             4
         ]
     },
@@ -68,16 +68,16 @@ var friends = [
         "name":"Leorio",
         "photo":"http://pm1.narvii.com/6943/3e7beaa3a902c20100fc9014f889483f942b389fr1-500-500v2_00.jpg",
         "scores":[
-            1,
-            2,
-            3,
-            2,
-            3,
-            4,
             5,
-            2,
             5,
-            4
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
         ]
     },
     {
@@ -85,30 +85,30 @@ var friends = [
         "photo":"https://vignette.wikia.nocookie.net/hunterx/images/6/69/Netero_2011.png/revision/latest?cb=20120114080637",
         "scores":[
             1,
+            1,
             2,
-            3,
-            2,
-            3,
-            4,
-            5,
-            2,
-            5,
-            4
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
         ]
     },
     {
         "name":"Ging Freecss",
         "photo":"https://i.pinimg.com/originals/d8/2d/74/d82d747ef61d72d4a176533f07281464.png",
         "scores":[
-            1,
-            2,
-            3,
-            2,
-            3,
             4,
-            5,
-            2,
-            5,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
             4
         ]
     },
@@ -116,32 +116,32 @@ var friends = [
         "name":"Meruem",
         "photo":"https://www.anime-planet.com/images/characters/meruem-52817.jpg",
         "scores":[
-            1,
             2,
-            3,
             2,
-            3,
-            4,
-            5,
             2,
-            5,
-            4
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
         ]
     },
     {
         "name":"Hisoka",
         "photo":"https://pngimage.net/wp-content/uploads/2018/06/hisoka-png-6.png",
         "scores":[
-            1,
-            2,
             3,
-            2,
             3,
-            4,
-            5,
-            2,
-            5,
-            4
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
         ]
     },
     {
@@ -151,13 +151,13 @@ var friends = [
             1,
             2,
             3,
+            1,
             2,
             3,
-            4,
-            5,
+            1,
             2,
-            5,
-            4
+            3,
+            1
         ]
     }
 
